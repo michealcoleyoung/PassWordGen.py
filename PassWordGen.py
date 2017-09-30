@@ -4,7 +4,7 @@ import random
 app = gui('PA$$GEN 1.0', '308x283')
 app.setFont(20)
 app.setBg("lightgrey")
-app.addImage("Password Gen", "/Users/michealcoleyoung/Downloads/PassGen.png")
+# app.addImage("Password Gen", "insert folder path for PassGen Image")
 
 def generate_password(btn):
     symbols = ['@', '#', '$', '%']

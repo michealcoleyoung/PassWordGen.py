@@ -32,7 +32,6 @@ def generate_password(btn):
                 random.choice(ambiguous_char),
                 random.choice(ambiguous_char2)]
 
-
     getOptionBox = app.getOptionBox("How many characters:")
     random.shuffle(password)
 
@@ -80,7 +79,6 @@ def generate_password(btn):
         app.setEntry("entry1", ''.join(password[0:16]))
         app.setMeter("Strength", 100.00000000001, text="Strongest")
         app.setMeterFill("Strength", "orange")
-
 
 CharRange = list(range(6, 17))
 app.addLabelOptionBox("How many characters:", CharRange)
